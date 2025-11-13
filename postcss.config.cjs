@@ -1,4 +1,3 @@
-javascript
 module.exports = {
  plugins: {
    'postcss-preset-mantine': {},
@@ -13,4 +12,3 @@ module.exports = {
    },
  },
 };
-
