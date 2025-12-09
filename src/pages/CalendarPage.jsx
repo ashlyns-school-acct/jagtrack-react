@@ -13,14 +13,25 @@ return (
 
 
     <Paper shadow="sm" p="md" radius="md" withBorder>
+      <p id="Blue">Blue: Assignments</p> <p id="Green">Green: Holidays</p>
+      <p></p>
       <div className="calendar-container">
         <iframe
-          src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FDenver&showPrint=0&src=YXNobHluLndvbGZlQGphamFncy5jb20&src=Y183ZDk5NmM5ODJkZGZlOTQ1ZTgyMTcyYjZlZTRkODgxZmVjNTM0MjIzOTU4MzQ2YjI0OGNhNWFlMTEzNjg4YTYxQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=Y19jbGFzc3Jvb21hN2E3MDlmN0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=ZHY2czdkZTk2dnZlNmoybGs1azZvM3Q5NnBhbTcycXRAaW1wb3J0LmNhbGVuZGFyLmdvb2dsZS5jb20&src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&src=Y19jbGFzc3Jvb21hYTczZTg4MUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23039be5&color=%23e4c441&color=%23b80672&color=%23039be5&color=%230b8043&color=%23202124"
+          src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FDenver&mode=AGENDA&showNav=0&showPrint=0&showCalendars=0&showTitle=0&src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&src=ZHY2czdkZTk2dnZlNmoybGs1azZvM3Q5NnBhbTcycXRAaW1wb3J0LmNhbGVuZGFyLmdvb2dsZS5jb20&color=%230b8043&color=%23039be5"
           className="google-calendar"
           frameBorder="0"
           scrolling="no"
         ></iframe>
       </div>
+      {/* <Button
+      component="a"
+      href="https://calendar.google.com/calendar/r/eventedit"
+      target="_blank"
+      variant="light"
+      mt="md"
+      >
+      Quick Add Event
+      </Button> */}
     </Paper>
 
 
@@ -32,6 +43,9 @@ return (
         open calendar in new tab
       </a>
     </Text>
+
+    
+
   </Container>
 )
 }
