@@ -27,6 +27,18 @@ return (
           Classes
         </Button>
         <Button
+          variant={currentPage === 'calendar' ? 'filled' : 'subtle'}
+          onClick={() => onPageChange('calendar')}
+        >
+          Calendar
+        </Button>
+        <Button
+          variant={currentPage === 'aichat' ? 'filled' : 'subtle'}
+          onClick={() => onPageChange('aichat')}
+        >
+          AI Chat
+        </Button>
+        <Button
           variant={currentPage === 'about' ? 'filled' : 'subtle'}
           onClick={() => onPageChange('about')}
         >
@@ -37,5 +49,8 @@ return (
   </nav>
 )
 }
+
+
+
 
 export default Navigation

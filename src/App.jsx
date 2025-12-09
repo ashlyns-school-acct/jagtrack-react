@@ -4,20 +4,17 @@ import Navigation from './components/Navigation'
 import Footer from './components/Footer'
 import HomePage from './pages/HomePage'
 import ClassesPage from './pages/ClassesPage'
+import CalendarPage from './pages/CalendarPage'
+import AIChatPage from './pages/AIChatPage'
 import AboutPage from './pages/AboutPage'
 import './App.css'
 
-
-
-
 function App() {
-// State to track which page is currently showing
 const [currentPage, setCurrentPage] = useState('home')
 
 
 
 
-// Function to change the page
 const handlePageChange = (pageName) => {
   setCurrentPage(pageName)
 }
@@ -31,6 +28,10 @@ if (currentPage === 'home') {
   pageContent = <HomePage />
 } else if (currentPage === 'classes') {
   pageContent = <ClassesPage />
+} else if (currentPage === 'calendar') {
+  pageContent = <CalendarPage />
+} else if (currentPage === 'aichat') {
+  pageContent = <AIChatPage />
 } else if (currentPage === 'about') {
   pageContent = <AboutPage />
 }

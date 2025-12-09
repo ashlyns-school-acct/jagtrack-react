@@ -6,6 +6,7 @@ import App from './App.jsx'
 import './index.css'
 import "./app.css"
 import "./variables.css"
+import "./pages/AIChatPage.jsx"
 
 
 createRoot(document.getElementById('root')).render(
