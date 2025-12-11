@@ -175,7 +175,7 @@ function AIChatPage() {
         >
           {messages.length === 0 ? (
             // Welcome message when no messages yet
-            <Text c="dimmed" ta="center" fs="italic" p="xl">
+            <Text c='var(--text-muted)' ta="center" fs="italic" p="xl">
               👋 Welcome! Ask me anything to get started.
             </Text>
           ) : (
@@ -214,7 +214,7 @@ function AIChatPage() {
             mb="sm"
             style={{ backgroundColor: 'white', border: '1px solid #bfdbfe' }}
           >
-            <Text fs="italic" c="dimmed">
+            <Text fs="italic" c='var(--text-muted)'>
               Help me understand [topic] for my [class name] class
             </Text>
           </Paper>
