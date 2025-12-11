@@ -1,4 +1,4 @@
-import { Container, Title, Text, Paper } from '@mantine/core'
+import { Container, Title, Text, Paper, Button } from '@mantine/core'
 import './CalendarPage.css'
 
 function CalendarPage() {
@@ -23,15 +23,6 @@ return (
           scrolling="no"
         ></iframe>
       </div>
-      {/* <Button
-      component="a"
-      href="https://calendar.google.com/calendar/r/eventedit"
-      target="_blank"
-      variant="light"
-      mt="md"
-      >
-      Quick Add Event
-      </Button> */}
     </Paper>
 
 
@@ -44,7 +35,16 @@ return (
       </a>
     </Text>
 
-    
+    <Button
+      component="a"
+      href="https://calendar.google.com/calendar/r/eventedit"
+      target="_blank"
+      variant="light"
+      mt="md"
+    >
+    Quick Add Event
+    </Button>
+
 
   </Container>
 )
