@@ -203,16 +203,16 @@ function AIChatPage() {
           radius="md"
           withBorder
           mt="md"
-          style={{ backgroundColor: '#f0f9ff', borderColor: '#3b82f6' }}
+          style={{ backgroundColor: 'var(--background-dark)', borderColor: 'var(--accent-color)' }}
         >
-          <Text size="sm" fw={600} c="#1e40af" mb="xs">
+          <Text size="sm" fw={600} c='var(--text-light)' mb="xs">
             💡 Suggested Question Template:
           </Text>
           <Paper
             p="sm"
             radius="md"
             mb="sm"
-            style={{ backgroundColor: 'white', border: '1px solid #bfdbfe' }}
+            style={{ backgroundColor: 'white', border: '1px solid var(--text-white)' }}
           >
             <Text fs="italic" c='var(--text-muted)'>
               Help me understand [topic] for my [class name] class

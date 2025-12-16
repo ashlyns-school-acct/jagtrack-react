@@ -1,0 +1,157 @@
+
+===== JAGTRACK REACT - MODULE 2 =====
+Student: Ashlyn Wolfe
+Date: 12/16/2025 (Started project on November 13th)
+
+---
+
+
+
+EXERCISE 1: NAVIGATION & TABS
+
+
+My Classes:
+Modern American History, Spanish III, JavaScript, Chemistry
+Chosen mostly for credits, though JavaScript is a personal passion of mine.
+
+
+Classes Page Design:
+
+- What color scheme did you choose for the tabs?
+    I chose a basic theme similar to 
+    the start of this project, where we 
+    used yellow and blue, for my light 
+    mode. For picking other themes, I 
+    found color schemes on colorhunt 
+    that I found pleasant.
+
+- Did you complete the responsive tabs challenge?
+    Yes, I did! The tabs correspond and 
+    adjust which page JagTrack displays, 
+    and each of which are fully integrated 
+    and debugged except for the about me 
+    page.
+
+- What was challenging about making the tabs work?
+    The tabs' color use a mantine default, 
+    which is difficult to catch in code and 
+    usually has to be overwritten to fit the 
+    scheme. I ultimately was able to change 
+    the text colors, but not the tab buttons.
+
+---
+
+
+
+EXERCISE 2: GOOGLE CALENDAR INTEGRATION
+
+
+Calendar Setup:
+- Did you create a new calendar or use an existing one?
+    I used an existing calendar.
+
+- How many Canvas iCal feeds did you add?
+    I added seven feeds, as well as a
+    seperate calendar with US holidays.
+
+- Did you add them individually by course or as one combined feed?
+    Each of my courses are in one 
+    combined feed, but the holiday
+    calendar is seperate.
+
+Reflection:
+- How will this calendar help you stay organized?
+    This calendar will help in keeping
+    track of my assignments in all of
+    my classes at once, and makes it
+    easier for it all to be in one place.
+
+- What challenges did you face getting it set up?
+    I faced a challenge of what to copy
+    from the embed code, because both 
+    codes in question were not fully
+    clear.
+
+- Did you customize the calendar view? Which view do you prefer?
+    I prefer schedule view, because it
+    allows me to see the full name of
+    each calendar item, which is useful
+    for organization.
+    I customized it to be this way on
+    the calendar page, but not the homepage.
+    Both calendars are adjustable.
+
+---
+
+
+
+EXERCISE 3: DARK/LIGHT MODE TOGGLE
+
+
+Color Scheme Design:
+- What colors did you choose for light mode? Why?
+    I used the basic colors we used in part
+    one for simplicity, because it was quick
+    and I liked how the theme looked.
+
+- What colors did you choose for dark mode? Why?
+    I used a dark pink scheme from colorhunt,
+    because it fit the dark scheme and was
+    pleasant on the eyes.
+
+- How do your color choices reflect your personality or style?
+    My personalized color choices are mainly
+    monochromatic, revealing an interest in 
+    one color at a time. While more colors
+    can pop, too many makes each accent
+    negligible.
+
+- How did you ensure good contrast for accessibility?
+    This is unfortunately not fully complete.
+    The palettes I used are pretty, but do
+    not have as many options as the theme
+    wishes for, and as such some text and
+    colors blend against the background.
+    The alternative, however, is letting 
+    colors potentially clash or be too bright,
+    which I don't want either. Ultimately, I
+    could revise this project's theme colors
+    to include all that I need, though that is
+    not my focus at the moment.
+
+Theme Preferences:
+- Which theme do you prefer personally and why? [Your answer]
+    I prefer the base light mode, honestly.
+    While the color is a bit intense, each
+    word reads clearer (likely due to
+    increased color variation) and little
+    clashes against each other. It also fits
+    the best by far with the default mantine colors.
+
+- When do you think dark mode is most useful? [Your answer]
+    Dark mode is most useful at night, allowing a
+    user to look at their screen without having to
+    adjust their eyes.
+
+JavaScript Understanding:
+- In your own words, what does the toggleTheme function do?
+    toggleTheme allows a button to change the
+    colors of a site as long as its variables
+    are defined; the JavaScript file handles
+    this cycle of changes, while the button 
+    in the naviagation activates this toggle
+    script and adjusts the button to match it
+    instantly.
+
+- What is localStorage and why is it useful?
+    localStorage is the backend area of things
+    that allows a user to store their entered
+    info onsite. In this case, it is used for
+    saving a user's theme preference, but it
+    can also be used for logins or save data
+    on a video or web game.
+
+- Why does the theme preference persist when you reload the page?
+    The theme preference stays due to being
+    saved in localStorage, which the JavaScript
+    can easily pull from.

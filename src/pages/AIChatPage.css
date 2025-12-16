@@ -8,7 +8,7 @@
 
 
 .chat-display {
-  background: var(--background-white);
+  background: white;
   min-height: 400px;
   max-height: 500px;
   overflow-y: auto;
@@ -21,8 +21,8 @@
 
 
 .user-message {
-  background: #3b82f6;
-  color: white;
+  background: var(--background-light);
+  color: var(--text-dark);
   align-self: flex-end;
   margin-left: auto;
   max-width: 85%;
@@ -33,7 +33,7 @@
 
 .ai-message {
   background: var(--background-white);
-  color: #1f2937;
+  color: var(--background-dark);
   align-self: flex-start;
   max-width: 85%;
 }
@@ -43,8 +43,8 @@
 
 .error-message {
   background: var(--background-white);
-  color: #991b1b;
-  border: 1px solid #fecaca;
+  color: var(--accent-secondary);
+  border: 1px solid var(--background-light);
   align-self: center;
   max-width: 100%;
 }

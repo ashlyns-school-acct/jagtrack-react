@@ -6,7 +6,9 @@ import App from './App.jsx'
 import './index.css'
 import "./app.css"
 import "./variables.css"
+import { initializeTheme } from './themeToggle'
 
+initializeTheme()
 
 createRoot(document.getElementById('root')).render(
  <StrictMode>
