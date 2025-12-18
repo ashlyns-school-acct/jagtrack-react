@@ -155,3 +155,75 @@ JavaScript Understanding:
     The theme preference stays due to being
     saved in localStorage, which the JavaScript
     can easily pull from.
+
+---
+
+EXERCISE 4: ABOUT ME PAGE
+
+
+Components Used:
+1. Container
+2. Title
+3. Text
+4. Paper
+5. Divider
+6. List
+7. Group
+
+Creative Choices:
+- Why did you choose certain components?
+    I wanted to test my knowledge on mantine
+    components, and so I made the layout myself!
+
+- What layout choices did you make?
+    I put an image above a block of text, which
+    contains a title including my name and grade
+    followed by a group flexbox.
+
+- How does your page reflect your personality?
+    It simply reflects a want to prove myself and
+    perfect my endeavors.
+
+
+Responsive Design:
+- What breakpoints did you use?
+    I used group, which sends elements to the end
+    if they overflow. This doesn't look perfect,
+    but the class is ending soon.
+
+- What changes on different screen sizes?
+    Elements reposition themselves.
+
+---
+
+OVERALL MODULE 2 REFLECTION
+
+
+What I Learned:
+- What was the most challenging part of Module 2?
+    Definitely making my own page; I started it
+    before you gave layout ideas on the doc.
+
+- What are you most proud of?
+    Same thing! I'm proud I was able to figure out
+    mantine for myself.
+
+- How has your understanding of React grown?
+    I've learned how to use mantine and, by extension,
+    React itself. Thank you!
+
+- What would you like to learn next?
+    I'd like to see if I can learn Lua! I think that'd
+    be fun!
+
+
+Real-World Application:
+- Will you actually use JagTrack? How?
+    Most likely no. I don't often remember to use things,
+    especially those I make! This could be a useful project
+    for my portfolio, however.
+
+- What features might you add in the future?
+    I might try to add more themes and better integrate the
+    ones I currently have. Replacing mantine default colors
+    is also a good idea.
